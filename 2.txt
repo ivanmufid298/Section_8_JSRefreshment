@@ -1,0 +1,12 @@
+Pertanyaan
+a.)Mengapa bari 21,22,23 tidak dapat tampil?
+b.)Mengapa deklarasi pada baris 26 menyebabkan error?
+c.)Dengan melakukan komen pada baris ke 26, apakah baris 28 dapat dieksekusi? Jelaskan.
+
+Jawaban
+a.)Pada baris ke 4 terdapat variabel -> let terdaftar = false;
+   ubah false nya menjadi "true", sehingga menjadi -> let terdaftar = true;
+
+b.)Karena variabel constant merupakan variabel yang tak bisa diubah nilainya (read-only)
+
+c.)Masih belum dapat dieksekusi karna harus memanggil functionnya terlebih dahulu dengan menambah code perkenalan() pada baris kosong terakhir
